@@ -1,0 +1,56 @@
+.div-ventas3{
+    width: 900px;
+}
+
+.img-card3{
+    width: 200px;
+    height: 200px;
+}
+
+.aline{
+    text-align: center;
+}
+
+.btn-aline{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.negro{
+    font-weight: bold;
+}
+
+h3{
+    text-align: center;
+}
+
+.btn-pagar{
+    width: 200px;
+}
+
+.div-btn3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-agr1{
+    background-image: url("../../src/assets/suma.png" );
+    background-size: cover;
+    background-color: transparent;
+    border: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+.img-agr2{
+    background-image: url("../../src/assets/resta.png" );
+    background-size: cover;
+    background-color: transparent;
+    border: 0px;
+    width: 32px;
+    height: 32px;
+}
