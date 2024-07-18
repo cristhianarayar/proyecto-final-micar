@@ -1,0 +1,34 @@
+POST  http://localhost:3000/login
+Content-Type: application/json   
+ 
+{ 
+    "rut": "126643675",
+    "password": "admin" 
+}
+
+###
+POST http://localhost:3000/crear-recuperar
+Content-Type: application/json
+
+{
+    "rut":"126643675",
+    "nombre":"Leonardo",
+    "apellido":"Villalobos",
+    "edad":"54",
+    "fono":"982072288",
+    "email":"cl@cl.cl",
+    "direccion":"los sauces 5711",
+    "region":"1",
+    "ciudad":"1",
+    "comuna":"1",
+    "password":"admin",
+    "image":"mi-imag en.jpg"
+}
+
+###
+GET  http://localhost:3000/mi-perfil
+Content-Type: application/json
+Authorization:  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJydXQiOiIxMjY2NDM2NzUiLCJpYXQiOjE3MjExOTE5MzN9.oEOpXWvXGpjSahYpUr_IozkFSwyLqEM1lcdCSFbV1RE
+
+###
+GET  http://localhost:3000/actualizar?id=126643675
