@@ -1,0 +1,52 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(228, 88, 88);
+    border: solid 1px black;
+
+}
+
+.txt-menu{
+    color: rgb(200, 194, 194);
+    background-color: rgb(228, 88, 88);
+    font-weight: bold;
+    border: solid 1px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+
+.btn-cart{
+    background-image: url('./src/assets/carrito-de-compras.png');
+    background-size: cover;
+    background-color: rgb(228, 88, 88);
+    border: rgb(228, 88, 88);
+    width: 30px;
+    height: 30px;
+}
+
+.btn-user{
+    background-image: url('./src/assets/user.png');
+    background-size: cover;
+    background-color: rgb(228, 88, 88);
+    border: rgb(228, 88, 88);;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.btn-home{
+    background-image: url('./src/assets/home.png');
+    background-size: cover;
+    background-color: rgb(228, 88, 88);
+    border: rgb(228, 88, 88);;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
